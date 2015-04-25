@@ -1,0 +1,31 @@
+<body bgcolor="339966">
+<hr>
+<%= form_for @student do |f| -%>
+    First name: <%= f.text_field :firstname %><br />
+    Last name : <%= f.text_field :lastname %><br />
+    emailid: <%= f.text_field :emailid %><br />
+    password: <%= f.text_field :password %><br />
+    phoneno : <%= f.text_field :phoneno %><br />
+
+    <%= f.submit %>
+<% end -%>
+
+<hr>
+Display all the students information 
+<% if !@students.blank? %>
+  <% for item in @students %>
+     <%= item.firstname %> <%= item.lastname %> <%= item.emailid %> <%= item.password %> <%= item.phoneno %> <br/>
+   <% end %>
+<% else %>
+
+<% end %>
+<form action="http://localhost:3000/static_pages/ddeals" method="link">
+<p style="text-align: left;"><input type="submit" value="DISPLAY DEAL$" />&nbsp;</p>
+</form>
+<form action="http://localhost:3000/static_pages/index" method="link">
+<p style="text-align: left;"><input type="submit" value="GO TO MENU" />&nbsp;</p>
+</form>
+<form action="http://localhost:3000/static_pages/home" method="link">
+<p style="text-align: left;"><input type="submit" value="BACK TO HOME" />&nbsp;</p>
+</form>
+</body>

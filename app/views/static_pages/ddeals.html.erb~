@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>HTML Editor - Full Version</title>
+</head>
+<body bgcolor="339966">
+<p><span style="font-size:14px;"><span style="font-size:26px;">DISPLAY DEALS</span></span></p>
+
+<ul>
+<li>HOUSING</li>
+<li>ELECTRONICS</li>
+<li>BOOKS</li>
+<li>OTHERS</li>
+</ul>
+
+<p>​<input name="BACK TO MENU" type="button" value="BACK TO MENU" /></p>
+</body>
+</html>

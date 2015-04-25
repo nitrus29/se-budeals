@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>HTML Editor - Full Version</title>
+</head>
+<body bgcolor="339966">
+<p style="text-align: center;"><span style="font-size:72px;">BU DEAL$</span></p>
+
+<p style="text-align: center;"><span style="font-size:72px;"><span style="font-size:24px;">Want to sell/buy stuff among BU folks?</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:72px;"><span style="font-size:24px;">You are at the right place!!</span></span></p>
+
+<form action="http://localhost:3000/students/new" method="link">
+<p style="text-align: center;"><input height="500" type="submit" value="REGISTER" width="500" />&nbsp;</p>
+</form>
+
+<form action="http://localhost:3000/students/login" method="link">
+<p style="text-align: center;"><input height="500" type="submit" value="LOGIN" width="500" />&nbsp;</p>
+</form>
+
+<form action="http://localhost:3000/static_pages/faq" method="link">
+<p style="text-align: center;"><input type="submit" value="FAQ"/>&nbsp;</p>
+</form>
+<p style="text-align: center;">&nbsp;</p>
+</form>
+</body>
+</html>
+

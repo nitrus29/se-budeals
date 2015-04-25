@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Begin Form for Create Deal$-->
+    
+    <table cellspacing="5" cellpadding="5" border="0">
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<style>
+body {
+    background-color: #339966;
+}
+
+</style>
+<h1>BUDeal$</h1>
+<p><b>Create Deal$</b></p>
+
+</body>
+        <tr>
+            <td valign="top">
+                <strong>CATEGORY</strong>
+            </td>
+            <td valign="top">
+                <select name="field-7eb7708749307ba" id="field-7eb7708749307ba">
+                    <option value="Housing">Housing</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Books">Books</option>
+                    <option value="Others">Others</option>
+                </select>
+                
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <strong>Name:</strong>
+            </td>
+            <td valign="top">
+                <input type="text" name="field-b2cc28dd2f3045a" id="field-b2cc28dd2f3045a" size="40" value="" />
+                
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <strong>Description:</strong>
+            </td>
+            <td valign="top">
+                <textarea name="field-c95c29be0081228" id="field-c95c29be0081228" rows="6" cols="40"></textarea>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">
+                <strong>Price:</strong>
+            </td>
+            <td valign="top">
+                <input type="text" name="field-f5d0a66a7aee7c1" id="field-f5d0a66a7aee7c1" size="40" value="" />
+                
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <strong>Contact Name:</strong>
+            </td>
+            <td valign="top">
+                <input type="text" name="field-936cce7de8657f1" id="field-936cce7de8657f1" size="40" value="" />
+                
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <strong>Contact Email:</strong>
+            </td>
+            <td valign="top">
+                <input type="text" name="field-f08c8cbbcc8de8d" id="field-f08c8cbbcc8de8d" size="40" value="" />
+                
+            </td>
+        </tr>
+        <tr>
+			<td valign="top">
+				<strong>Contact Phone Number:</strong>
+			</td>
+			<td valign="top">
+				<input type="text" name="field-758b4aae2ac1223" id="field-758b4aae2ac1223" size="40" value="" />
+				
+			</td>
+		</tr>
+
+<tr>
+
+</tr>
+<td>
+<form action="FileUpload.php" method="post" enctype="multipart/form-data">
+    <label for="upload">Image:</label>
+    <input type="file" name="upload" id="upload">
+    <input type="submit" name="submit" value="Upload">
+</form>
+</td>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value=" Post Ad " />
+            </td>
+        </tr>
+    </table>
+
+<br><font face="Calibiri" size="5"><b>
+Back to <a href="http://www.budeals.com">BUDeal$</a>
+</b></font></center>
+<!-- End Create Deal$ Form -->
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAQ</title>
+
+</head>
+
+<!--<body style="background: url('file:///C:/Users/Raaja/Desktop/budeals1.png')" height="42" width="42"> -->
+<body bgcolor=#339966>
+<h1><center>FAQ</center></h1>
+<p> <font size="5">List of (Questions, Answers) pairs </font></p>
+<ol type="1">
+  <li><font size="4">What email id should be used to register?</font></li>
+     <ul>
+      <li><font size="4">Binghamton Email ID only can be used.</font></li>
+     </ul>
+  <li><font size="4">What is the mode of payment?</font></li>
+     <ul>
+      <li><font size="4">The buyer should directly contact the seller. There wont be any third party involvement.Each products have the details of the seller.</font></li>
+     </ul>
+</ol>
+
+</body>
+</html>

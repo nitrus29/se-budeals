@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budeals</title>
+	<link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
+	<link href="/assets/ddeals.css?body=1" media="all" rel="stylesheet" type="text/css" />
+	<link href="/assets/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
+	<link href="/assets/students.css?body=1" media="all" rel="stylesheet" type="text/css" /><script src="/assets/jquery.js?body=1" type="text/javascript"></script><script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script><script src="/assets/static_pages.js?body=1" type="text/javascript"></script><script src="/assets/students.js?body=1" type="text/javascript"></script><script src="/assets/application.js?body=1" type="text/javascript"></script>
+	<meta content="authenticity_token" name="csrf-param" />
+	<meta content="AIVRDG/WcPV5T4qN2uiC/zocZUpTJHWXHatnFoPNP4g=" name="csrf-token" />
+</head>
+<body bgcolor="339966">&nbsp;</body>
+<br />
+<br />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<div bgcolor="339966">
+<h1>&nbsp;</h1>
+
+<center style="text-align: center;"><span style="font-size:26px;">MENU</span></center>
+
+<div align="center">
+<p style="text-align: left;"><a href="#0.1_"><span>BUY</span></a></p>
+
+<p style="text-align: left;"><a href="#0.1_"><span>SELL</span></a></p>
+
+<p style="text-align: left;"><a href="#0.1_"><span>REMOVE AD</span></a></p>
+
+<p style="text-align: left;"><a href="#0.1_"><span>LOGOUT</span></a></p>
+
+<p style="text-align: left;"><input type="submit" value="BACK TO HOME" />&nbsp;</p>
+</div>
+</div>
+
+<form action="http://localhost:3000/static_pages/home" method="link">&nbsp;</form>
+</html>
+
