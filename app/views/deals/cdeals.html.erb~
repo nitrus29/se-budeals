@@ -1,0 +1,33 @@
+<body bgcolor="339966">
+<hr>
+<%= form_for @deal do |f| 
+%p
+    %select{ :name => "Category[category_status]" }
+    %option{:value => 1} = "Housing"
+    %option{:value => 2} = "Books"
+    %option{:value => 3} = "Electronics"
+    %option{:value => 4} = "Others"
+
+    Name: <%= f.text_field :name %><br />
+    Description: <%= f.text_field :description %><br />
+    Price: <%= f.text_field :price %><br />
+    Contact Name: <%= f.text_field :contactname %><br />
+    Contact Email: <%= f.text_field :contactemail %><br />
+    Contact Number: <%= f.text_field :contactphonenumber %><br />
+%p
+    <%= f.submit %>
+<% end -%>
+
+<hr>
+Display all the students information 
+<% if !@deals.blank? %>
+  <% for item in @deals %>
+     <%= item.name %> <%= item.description %> <%= item.price %> <br/>
+   <% end %>
+<% else %>
+
+<% end %>
+<form action="http://localhost:3000/static_pages/home" method="link">
+<p style="text-align: left;"><input type="submit" value="BACK TO HOME" />&nbsp;</p>
+</form>
+</body>

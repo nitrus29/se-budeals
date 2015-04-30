@@ -14,12 +14,12 @@
 Display all the students information 
 <% if !@students.blank? %>
   <% for item in @students %>
-     <%= item.firstname %> <%= item.lastname %> <%= item.emailid %> <%= item.password %> <%= item.phoneno %> <br/>
+     <%= item.firstname %> <%= item.lastname %> <%= item.emailid %> <%= item.phoneno %> <br/>
    <% end %>
 <% else %>
 
 <% end %>
-<form action="http://localhost:3000/static_pages/cdeals" method="link">
+<form action="http://localhost:3000/deals/cdeals" method="link">
 <p style="text-align: left;"><input type="submit" value="CREATE DEAL$" />&nbsp;</p>
 </form>
 

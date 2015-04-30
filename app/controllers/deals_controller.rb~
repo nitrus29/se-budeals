@@ -1,0 +1,15 @@
+class DealsController < ApplicationController
+
+def cdeals 
+   @deal= Deal.new
+   @deals = Deal.find(:all)
+ end
+
+ def create
+   @deal = Deal.new(params[:deal])
+   if @deal.save
+      redirect_to new_student_path
+   end
+ end
+
+end

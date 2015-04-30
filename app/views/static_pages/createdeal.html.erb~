@@ -1,0 +1,22 @@
+<hr>
+<%= form_for @deals do |f| -%>
+    CATEGORY: <%= f.text_field :category %><br />
+    Name: <%= f.text_field :name %><br />
+    Description: <%= f.text_field :description %><br />
+    Price: <%= f.text_field :price %><br />
+    Contact Name : <%= f.text_field :contactname %><br />
+    Contact Email : <%= f.text_field :contactemail %><br />
+    Contact Phone Number : <%= f.text_field :contactphonenumber %><br />
+
+    <%= f.submit %>
+<% end -%>
+
+<hr>
+Display all the Deals information 
+<% if !@deals.blank? %>
+  <% for item in @deals %>
+     <%= item.category %> <%= item.name %> <%= item.description %> <%= item.price %> <br/>
+   <% end %>
+<% else %>
+
+<% end %>

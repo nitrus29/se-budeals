@@ -1,0 +1,14 @@
+class DealsControllerController < ApplicationController
+def createdeal
+	@deals=Deal.new
+	@dealsmany=Deal.find(:all)
+end
+
+def create
+	@deals=Deal.new(params[:deals])
+	if @deals.save
+		redirect_to new_deals_path
+	end
+end
+
+end

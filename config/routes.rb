@@ -9,7 +9,8 @@ Budeals::Application.routes.draw do
 
   get "static_pages/index"
 
-  get "static_pages/cdeals"
+  get "deals/cdeals"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -62,7 +63,10 @@ Budeals::Application.routes.draw do
    resources :students
    root :to => 'students#new'
    root :to => 'static_pages#home'
-
+	
+   resources :deals
+   root :to => 'deals#cdeals'
+   
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
