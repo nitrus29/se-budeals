@@ -19,7 +19,11 @@ class StudentsController < ApplicationController
    @student = Student.new(params[:student])
    flash[:notice] = "User registered successfully"
    if @student.save
-      redirect_to new_student_path
-   end
-end
+     redirect_to root_path
+   end 
+ end
+
+ def login
+
+ end
 end

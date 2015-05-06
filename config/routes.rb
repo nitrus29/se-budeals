@@ -11,6 +11,8 @@ Budeals::Application.routes.draw do
 
   get "deals/cdeals"
 
+  get "students/login"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -61,11 +63,11 @@ Budeals::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
    resources :students
-   root :to => 'students#new'
+#   root :to => 'students#new'
    root :to => 'static_pages#home'
 	
    resources :deals
-   root :to => redirect('/deals')
+#   root :to => redirect('/deals')
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
