@@ -1,0 +1,19 @@
+-# This file is app/view/deals/index.html.haml
+%h1 All Deals
+
+%table#deals
+  %thead
+    %tr
+      %th Category
+      %th Name
+      %th Price
+      %th Details
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= deal.category
+        %td= deal.name
+        %td= deal.price
+        %td= link_to "More about #{deals.name}", deals_path(deal)
+
+= link_to 'Create New Deal', new_deal_path

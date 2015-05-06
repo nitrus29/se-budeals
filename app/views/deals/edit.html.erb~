@@ -1,0 +1,40 @@
+<body bgcolor="339966">
+<h1>Edit Deal</h1>
+<%= form_for @deal do |f| -%>
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.select :category, options_for_select(%w[Books Electronics Housing Others]) %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= f.label :contactname %><br />
+    <%= f.text_field :contactname %>
+  </div>
+
+  <div class="field">
+    <%= f.label :contactemail %><br />
+    <%= f.text_field :contactemail %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<%= link_to 'Back', deals_path %>
+

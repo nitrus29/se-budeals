@@ -1,0 +1,38 @@
+<body bgcolor="339966">
+<p>
+  <b>Category:</b>
+  <%= @deal.category %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @deal.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @deal.description %>
+</p>
+
+<p>
+  <b>Contact Name:</b>
+  <%= @deal.contactname %>
+</p>
+
+<p>
+  <b>Contact Email:</b>
+  <%= @deal.contactemail %>
+</p>
+
+<p>
+  <b>Contact Phone Number:</b>
+  <%= @deal.contactphonenumber %>
+</p>
+
+
+
+<%= link_to 'Edit Info', edit_deal_path(@deal) %> |
+<%= button_to 'Delete', deal_path(@deal), :method => :delete, :confirm => 'Are you sure?' %>
+<%= link_to 'Back to Display Deals', deals_path %> |
+
+

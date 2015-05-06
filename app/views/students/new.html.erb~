@@ -10,26 +10,7 @@
     <%= f.submit %>
 <% end -%>
 
-<hr>
-Display all the students information 
-<% if !@students.blank? %>
-  <% for item in @students %>
-     <%= item.firstname %> <%= item.lastname %> <%= item.emailid %> <%= item.phoneno %> <br/>
-   <% end %>
-<% else %>
 
-<% end %>
-<form action="http://localhost:3000/static_pages/cdeals" method="link">
-<p style="text-align: left;"><input type="submit" value="CREATE DEAL$" />&nbsp;</p>
-</form>
-
-<form action="http://localhost:3000/static_pages/ddeals" method="link">
+<form action="http://localhost:3000/deals" method="link">
 <p style="text-align: left;"><input type="submit" value="DISPLAY DEAL$" />&nbsp;</p>
 </form>
-<form action="http://localhost:3000/static_pages/index" method="link">
-<p style="text-align: left;"><input type="submit" value="GO TO MENU" />&nbsp;</p>
-</form>
-<form action="http://localhost:3000/static_pages/home" method="link">
-<p style="text-align: left;"><input type="submit" value="BACK TO HOME" />&nbsp;</p>
-</form>
-</body>

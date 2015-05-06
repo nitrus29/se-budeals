@@ -1,0 +1,19 @@
+-# in app/views/deals/show.html.haml
+
+%h1 Details about #{@deal.name}
+
+%ul#details
+  %li
+    Category:
+    = @deal.category
+  %li
+    Contact Name:
+    = @deal.contactname
+
+%h3 Description:
+
+%p#description= @deal.description
+
+= link_to 'Edit info', edit_cdeal_path(@movie)
+= button_to 'Delete', cdeals_path(@movie), :method => :delete, :confirm => 'Are you sure?'
+= link_to 'Back to deals list', cdeals_path

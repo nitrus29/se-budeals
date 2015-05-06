@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <%= stylesheet_link_tag "static_pages.css.scss" %>
 <html>
+<body bgcolor="339966">
 <head>
+<body bgcolor="339966">
 	<title>Budeals</title>
 	<link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
 	<link href="/assets/ddeals.css?body=1" media="all" rel="stylesheet" type="text/css" />
@@ -20,16 +22,12 @@
 <center style="text-align: center;"><span style="font-size:26px;">MENU</span></center>
 
 <div align="center">
-<form style= "height: 100"action="" method="link">
-<p style="text-align: center; height:500%;"><input type="submit" value="Display Deals" />&nbsp;</p>
+<form style= "height: 100"action="http://localhost:3000/deals" method="link">
+<p style="text-align: center; height:500%;"><input type="submit" value="DISPLAY/REMOVE DEALS" />&nbsp;</p>
 </form>
 
-<form action="" method="link">
-<p style="text-align: center;"><input type="submit" value="Create Deals" />&nbsp;</p>
-</form>
-
-<form action="http://localhost:3000/static_pages/remove_ad" method="link">
-<p style="text-align: center;"><input type="submit" value="REMOVE AD" />&nbsp;</p>
+<form action="http://localhost:3000/deals/new" method="link">
+<p style="text-align: center;"><input type="submit" value="CREATE DEALS" />&nbsp;</p>
 </form>
 
 <form action="http://localhost:3000/static_pages/home" method="link">

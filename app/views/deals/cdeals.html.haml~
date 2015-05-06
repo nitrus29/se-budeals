@@ -3,16 +3,13 @@
 
 = form_tag cdeals_path, :method => :post do
 
+  = label :deal, :category, 'CATEGORY'
+  = select :deal, :category, ['Books','Electronics','Housing','Others']
+
   = label :deal, :name, 'Name'
   = text_field :deal, :name
 
   = label :deal, :description, 'Description'
   = text_field :deal, :description
-
-  = label :movie, :rating, 'Rating'
-  = select :movie, :rating, ['G','PG','PG-13','R','NC-17']
-
-  = label :movie, :release_date, 'Released On'
-  = date_select :movie, :release_date
 
   = submit_tag 'Save Changes'

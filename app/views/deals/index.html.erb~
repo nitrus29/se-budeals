@@ -1,0 +1,25 @@
+<body bgcolor="339966">
+<h1>BUDeal$</h1>
+<table>
+<tr>
+<th>Category</th>
+<th>Name</th>
+<th>Price</th>
+<th>Details</th>
+<th></th>
+<th></th>
+</tr>
+<% @deals.each do |deal| %>
+<tr>
+<td><%= deal.category %></td>
+<td><%= deal.name %></td>
+<td><%= deal.price %></td>
+<td><%= link_to 'Show', deal %></td>
+<td><%= link_to 'Edit', edit_deal_path(deal) %></td>
+<td><%= link_to 'Remove', deal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>
+<% end %>
+</table>
+<br />
+<%= link_to 'Create Deal', new_deal_path %>
+<%= link_to 'Back', index_path %>
