@@ -22938,3 +22938,217 @@ Processing by DealsController#index as HTML
   [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
   Rendered deals/index.html.erb (6.4ms)
 Completed 200 OK in 8.5ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-06 17:14:05 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.0ms)
+Completed 200 OK in 5.2ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-06 21:58:22 -0300
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (5.8ms)
+Completed 200 OK in 93.6ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2015-05-06 21:58:33 -0300
+Processing by StudentsController#new as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/new.html.erb (54.9ms)
+Completed 200 OK in 151.5ms (Views: 65.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-06 21:58:37 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb (1594.2ms)
+Completed 200 OK in 1596.7ms (Views: 1596.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-05-06 21:58:39 -0300
+Served asset /static_pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-06 21:58:39 -0300
+Served asset /application.css - 304 Not Modified (461ms)
+
+
+Started GET "/assets/ddeals.css?body=1" for 127.0.0.1 at 2015-05-06 21:58:39 -0300
+Served asset /ddeals.css - 304 Not Modified (317ms)
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2015-05-06 21:58:40 -0300
+Served asset /students.css - 304 Not Modified (244ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-06 21:58:40 -0300
+Served asset /application.js - 304 Not Modified (3043ms)
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2015-05-06 21:58:43 -0300
+Served asset /students.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-05-06 21:58:43 -0300
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-06 21:58:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (700ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-06 21:58:44 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 21:58:46 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (8.8ms)
+Completed 200 OK in 279.2ms (Views: 267.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/deals/10" for 127.0.0.1 at 2015-05-06 21:58:53 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDeal Load (0.3ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered deals/show.html.erb (2.5ms)
+Completed 200 OK in 15.5ms (Views: 13.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/deals/10/edit" for 127.0.0.1 at 2015-05-06 21:58:56 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered deals/edit.html.erb (6.4ms)
+Completed 200 OK in 23.6ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/deals/10" for 127.0.0.1 at 2015-05-06 21:59:08 -0300
+Processing by DealsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5FwmM0VbcON5DoA/NgfZwafwgeaoGTi0kuI7hHpHkAw=", "deal"=>{"category"=>"Books", "name"=>"iphone 5s", "description"=>"in good working condition", "price"=>"$545", "contactname"=>"", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Update Deal", "id"=>"10"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (27.4ms)[0m  [1mUPDATE "deals" SET "category" = 'Books', "price" = '$545', "contactname" = '', "contactemail" = '', "contactphonenumber" = '', "updated_at" = '2015-05-07 00:59:08.957868' WHERE "deals"."id" = 10[0m
+  [1m[35m (22.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/deals/10
+Completed 302 Found in 147.7ms (ActiveRecord: 50.0ms)
+
+
+Started GET "/deals/10" for 127.0.0.1 at 2015-05-06 21:59:09 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered deals/show.html.erb (0.8ms)
+Completed 200 OK in 6.3ms (Views: 4.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 21:59:12 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (6.3ms)
+Completed 200 OK in 8.7ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals/10/edit" for 127.0.0.1 at 2015-05-06 21:59:19 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered deals/edit.html.erb (10.9ms)
+Completed 200 OK in 14.7ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 21:59:22 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (5.5ms)
+Completed 200 OK in 7.8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals/10" for 127.0.0.1 at 2015-05-06 21:59:26 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered deals/show.html.erb (0.6ms)
+Completed 200 OK in 2.7ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/deals/10" for 127.0.0.1 at 2015-05-06 21:59:30 -0300
+Processing by DealsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5FwmM0VbcON5DoA/NgfZwafwgeaoGTi0kuI7hHpHkAw=", "id"=>"10"}
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (154.9ms)[0m  DELETE FROM "deals" WHERE "deals"."id" = ?  [["id", 10]]
+  [1m[36m (792.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 951.0ms (ActiveRecord: 947.7ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 21:59:31 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (10.6ms)
+Completed 200 OK in 21.3ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals/14/edit" for 127.0.0.1 at 2015-05-06 21:59:36 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered deals/edit.html.erb (3.9ms)
+Completed 200 OK in 7.3ms (Views: 5.2ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/deals/14" for 127.0.0.1 at 2015-05-06 21:59:41 -0300
+Processing by DealsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5FwmM0VbcON5DoA/NgfZwafwgeaoGTi0kuI7hHpHkAw=", "deal"=>{"category"=>"Others", "name"=>"Bottle", "description"=>"water and juice", "price"=>"$4", "contactname"=>"Apeksha Pawar", "contactemail"=>"apawar2@binghamton.edu", "contactphonenumber"=>""}, "commit"=>"Update Deal", "id"=>"14"}
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "14"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  UPDATE "deals" SET "category" = 'Others', "contactphonenumber" = '', "updated_at" = '2015-05-07 00:59:41.973211' WHERE "deals"."id" = 14
+  [1m[36m (48.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/deals/14
+Completed 302 Found in 52.4ms (ActiveRecord: 48.4ms)
+
+
+Started GET "/deals/14" for 127.0.0.1 at 2015-05-06 21:59:42 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered deals/show.html.erb (1.3ms)
+Completed 200 OK in 4.6ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 21:59:44 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.3ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (6.6ms)
+Completed 200 OK in 9.3ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-06 22:01:00 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (13.4ms)
+Completed 200 OK in 27.4ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 22:01:02 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.3ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (10.8ms)
+Completed 200 OK in 13.4ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/deals/24" for 127.0.0.1 at 2015-05-06 22:01:08 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "24"]]
+  Rendered deals/show.html.erb (1.0ms)
+Completed 200 OK in 2.9ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-06 22:01:10 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (6.6ms)
+Completed 200 OK in 9.9ms (Views: 8.9ms | ActiveRecord: 0.2ms)
