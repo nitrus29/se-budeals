@@ -3,12 +3,15 @@
 <table>
 <tr>
 <th>Category</th>
+<th>{:class => @category_header}= link_to 'Category', deals_path(:sort => 'category', :category => @selected_category), :id => 'category_header'</th>
 <th>Name</th>
 <th>Price</th>
 <th>Details</th>
 <th></th>
 <th></th>
 </tr>
+
+
 <% @deals.each do |deal| %>
 <tr>
 <td><%= deal.category %></td>
@@ -21,5 +24,5 @@
 <% end %>
 </table>
 <br />
-<%= link_to 'Create Deal', new_deal_path %>
-<%= link_to 'Back', index_path %>
+<%= link_to 'Create Deal', new_deal_path %> 
+
