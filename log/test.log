@@ -85,3 +85,387 @@ Processing by DealsController#index as HTML
   Rendered deals/index.html.erb (0.7ms)
 Completed 200 OK in 1.8ms (Views: 1.1ms | ActiveRecord: 0.1ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:22:27 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (31.7ms)
+Completed 200 OK in 134.1ms (Views: 65.4ms | ActiveRecord: 1.9ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:22:27 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:22:27 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:22:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 8.9ms (ActiveRecord: 6.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:22:27 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (2.2ms)
+Completed 200 OK in 4.0ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:22:27 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (0.8ms)
+Completed 200 OK in 2.0ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:32:26 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (31.6ms)
+Completed 200 OK in 112.5ms (Views: 63.6ms | ActiveRecord: 2.0ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:32:26 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (43.6ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:32:26 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:32:26 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 48.8ms (ActiveRecord: 43.8ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:32:26 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.8ms)
+Completed 200 OK in 3.9ms (Views: 2.7ms | ActiveRecord: 0.1ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:32:26 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (1.3ms)
+Completed 200 OK in 2.6ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:32:26 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.4ms)
+Completed 200 OK in 1.6ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:33:08 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (44.8ms)
+Completed 200 OK in 163.3ms (Views: 91.0ms | ActiveRecord: 2.5ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:33:08 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (63.9ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:33:08 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:33:08 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 69.8ms (ActiveRecord: 64.2ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:33:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (3.6ms)
+Completed 200 OK in 6.1ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:33:08 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (0.9ms)
+Completed 200 OK in 2.4ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:33:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.4ms)
+Completed 200 OK in 2.1ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:34:44 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (30.9ms)
+Completed 200 OK in 112.4ms (Views: 64.2ms | ActiveRecord: 1.9ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:34:44 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (43.9ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:34:44 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:34:44 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 48.3ms (ActiveRecord: 44.1ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:34:44 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.6ms)
+Completed 200 OK in 4.2ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:34:44 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (2.2ms)
+Completed 200 OK in 3.3ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:34:44 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 1.3ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:38:11 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (31.3ms)
+Completed 200 OK in 113.1ms (Views: 63.4ms | ActiveRecord: 1.9ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:38:12 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (44.1ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:38:12 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:38:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 48.1ms (ActiveRecord: 44.3ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:38:12 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (3.3ms)
+Completed 200 OK in 6.4ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:38:12 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (0.9ms)
+Completed 200 OK in 2.2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:38:12 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 1.4ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:39:58 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (31.7ms)
+Completed 200 OK in 111.3ms (Views: 63.5ms | ActiveRecord: 1.9ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:39:58 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (42.3ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:39:58 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:39:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 46.6ms (ActiveRecord: 42.5ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:39:58 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.9ms)
+Completed 200 OK in 3.9ms (Views: 2.8ms | ActiveRecord: 0.1ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:39:58 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (2.3ms)
+Completed 200 OK in 3.9ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:39:58 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 2.2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:40:48 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (31.8ms)
+Completed 200 OK in 114.3ms (Views: 65.0ms | ActiveRecord: 1.9ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:40:48 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (48.3ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:40:48 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:40:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 54.1ms (ActiveRecord: 48.5ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:40:49 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (3.2ms)
+Completed 200 OK in 5.6ms (Views: 4.2ms | ActiveRecord: 0.1ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:40:49 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (0.8ms)
+Completed 200 OK in 2.1ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:40:49 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 1.4ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+Started GET "/deals/12/edit" for 127.0.0.1 at 2015-05-13 20:40:49 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "12"]]
+Completed 404 Not Found in 1.8ms
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:42:01 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (32.4ms)
+Completed 200 OK in 116.6ms (Views: 67.2ms | ActiveRecord: 1.8ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:42:01 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (43.7ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:42:01 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:42:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 49.8ms (ActiveRecord: 43.8ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:42:01 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.8ms)
+Completed 200 OK in 4.8ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:42:01 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.3ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (0.9ms)
+Completed 200 OK in 3.4ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:42:01 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 1.3ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:42:24 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (32.1ms)
+Completed 200 OK in 115.8ms (Views: 67.0ms | ActiveRecord: 1.6ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:42:24 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (45.4ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:42:24 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:42:24 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 48.9ms (ActiveRecord: 45.6ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:42:24 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.6ms)
+Completed 200 OK in 4.0ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:42:24 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (1.7ms)
+Completed 200 OK in 3.7ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:42:24 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 1.5ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-13 20:43:17 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb (33.2ms)
+Completed 200 OK in 116.0ms (Views: 67.0ms | ActiveRecord: 2.0ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-13 20:43:17 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactphonenumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (44.9ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactphonenumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactphonenumber", ""], ["created_at", Wed, 13 May 2015 23:43:17 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Wed, 13 May 2015 23:43:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 48.2ms (ActiveRecord: 45.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:43:18 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (1.7ms)
+Completed 200 OK in 4.0ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:43:18 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (1.6ms)
+Completed 200 OK in 3.0ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:43:18 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (0.3ms)
+Completed 200 OK in 2.5ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+Started GET "/deals/12/edit" for 127.0.0.1 at 2015-05-13 20:43:18 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "12"]]
+Completed 404 Not Found in 7.0ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m

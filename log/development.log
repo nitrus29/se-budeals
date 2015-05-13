@@ -25046,3 +25046,213 @@ Connecting to database specified by database.yml
   [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (5.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
   [1m[36m (4.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (193.3ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (12.0ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (12.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (7.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (8.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:26:50 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (8.3ms)
+Completed 200 OK in 11.0ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals/11" for 127.0.0.1 at 2015-05-13 20:26:56 -0300
+Processing by DealsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered deals/show.html.erb (0.7ms)
+Completed 200 OK in 3.0ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/deals/11" for 127.0.0.1 at 2015-05-13 20:26:59 -0300
+Processing by DealsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"q8EhFxrwuTf1m7/3AusBzHkETIGRFT27G8tjA/OrjE0=", "id"=>"11"}
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "deals" WHERE "deals"."id" = ?  [["id", 11]]
+  [1m[36m (25.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 28.8ms (ActiveRecord: 25.7ms)
+
+
+Started GET "/deals" for 127.0.0.1 at 2015-05-13 20:26:59 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb (9.9ms)
+Completed 200 OK in 16.8ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/deals/12/edit" for 127.0.0.1 at 2015-05-13 20:27:01 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "12"]]
+  Rendered deals/edit.html.erb (4.9ms)
+Completed 200 OK in 7.6ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals/12/edit" for 127.0.0.1 at 2015-05-13 20:29:03 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "12"]]
+  Rendered deals/edit.html.erb (2.9ms)
+Completed 200 OK in 6.4ms (Views: 5.6ms | ActiveRecord: 0.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (21.5ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (5.6ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (5.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (58.3ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (13.5ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (13.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (10.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (13.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (33.8ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (6.5ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (6.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (5.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (37.5ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (5.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (70.7ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (13.0ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (10.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (8.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (7.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (22.7ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (6.9ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (6.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (4.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (5.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (65.1ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (14.6ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (15.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (15.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (45.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (14.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (29.4ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (4.9ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (7.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (40.8ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (10.6ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (10.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (7.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+
+
+Started GET "/deals/" for 127.0.0.1 at 2015-05-13 20:41:11 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.3ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb (45.6ms)
+Completed 200 OK in 49.3ms (Views: 48.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/deals/14/edit" for 127.0.0.1 at 2015-05-13 20:41:15 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "14"]]
+  Rendered deals/edit.html.erb (7.2ms)
+Completed 200 OK in 13.9ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals/18/edit" for 127.0.0.1 at 2015-05-13 20:41:19 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1[0m  [["id", "18"]]
+  Rendered deals/edit.html.erb (2.9ms)
+Completed 200 OK in 5.3ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/deals/24/edit" for 127.0.0.1 at 2015-05-13 20:41:24 -0300
+Processing by DealsController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" WHERE "deals"."id" = ? LIMIT 1  [["id", "24"]]
+  Rendered deals/edit.html.erb (4.6ms)
+Completed 200 OK in 6.6ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (83.9ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (11.3ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (7.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (6.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (5.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (115.4ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (13.9ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (6.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (4.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (7.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (6.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (30.2ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactphonenumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (14.4ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (11.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (8.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (5.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430214353')
+  [1m[36m (5.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m

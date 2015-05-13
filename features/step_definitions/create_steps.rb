@@ -14,6 +14,9 @@ When(/^I press "(.*?)"$/) do |button|
   click_link_or_button(button)
 end
 
+Then(/^I choose 'Edit'$/) do
+end
+
 Then(/^show me the deal on the display page$/) do
 # save_and_open_page 
 puts page.body
