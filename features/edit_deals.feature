@@ -5,8 +5,4 @@ I want to edit my deal
 Scenario: Edit a deal
 Given I am on http://localhost:3000/deals
 Then I choose 'Edit'
-Then I am on http://localhost:3000/deals/12/edit
-And I fill in "name" with "Paperback"
-Then I press "Update Deal"
-Then I am on http://localhost:3000/deals/
-Then show me the deal on the display page
+Then show me the deal on the edit page
