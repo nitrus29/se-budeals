@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<%= stylesheet_link_tag "static_pages.css.scss" %>
-<html>
 <body bgcolor="339966">
-<head>
-<body bgcolor="339966">
-	<title>Budeals</title>
-	<link href="/assets/application.css?body=1" media="all" rel="stylesheet" type="text/css" />
-	<link href="/assets/ddeals.css?body=1" media="all" rel="stylesheet" type="text/css" />
-	<link href="/assets/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
-	<link href="/assets/students.css?body=1" media="all" rel="stylesheet" type="text/css" /><script src="/assets/jquery.js?body=1" type="text/javascript"></script><script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script><script src="/assets/static_pages.js?body=1" type="text/javascript"></script><script src="/assets/students.js?body=1" type="text/javascript"></script><script src="/assets/application.js?body=1" type="text/javascript"></script>
-	<meta content="authenticity_token" name="csrf-param" />
-	<meta content="AIVRDG/WcPV5T4qN2uiC/zocZUpTJHWXHatnFoPNP4g=" name="csrf-token" />
-</head>
-<body bgcolor="339966">&nbsp;</body>
-<br />
-<br />
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<div bgcolor="339966">
-<h1>&nbsp;</h1>
+<h1>BUDeal$ MENU</h1>
 
-<center style="text-align: center;"><span style="font-size:26px;">MENU</span></center>
-
-<div align="center">
-<form style= "height: 100"action="http://localhost:3000/deals" method="link">
-<p style="text-align: center; height:500%;"><input type="submit" value="DISPLAY/REMOVE DEALS" />&nbsp;</p>
+<form action="http://localhost:3000/deals" method="link">
+<p style="text-align: center;"><input height="500" type="submit" value="DISPLAY DEALS" width="500" />&nbsp;</p>
 </form>
 
 <form action="http://localhost:3000/deals/new" method="link">
-<p style="text-align: center;"><input type="submit" value="CREATE DEALS" />&nbsp;</p>
+<p style="text-align: center;"><input height="500" type="submit" value="CREATE DEALS" width="500" />&nbsp;</p>
 </form>
 
-<form action="http://localhost:3000/static_pages/home" method="link">
-<p style=" top:90  text-align: left;"><input type="submit" value="BACK TO HOME"/>&nbsp;</p>
 </form>
-
-</div>
-</html>
-

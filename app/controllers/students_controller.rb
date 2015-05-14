@@ -5,6 +5,7 @@ class StudentsController < ApplicationController
    @students = Student.find(:all)
  end
 
+
  def ddeals
    @student= Student.ddeals
    @students = Student.find(:all)
@@ -24,6 +25,7 @@ class StudentsController < ApplicationController
  end
 
  def login
-
+	@student= Student.new
+	@students = Student.find(:all)
  end
 end

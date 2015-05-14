@@ -3,7 +3,7 @@
 <%= form_for @student do |f| -%>
 
   <div class="field">
-    <%= f.label :emailid %><br />
+    <%= f.label :emaildi %><br />
     <%= f.text_field :emailid %>
   </div>
 

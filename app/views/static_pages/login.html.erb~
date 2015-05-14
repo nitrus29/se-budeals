@@ -1,0 +1,19 @@
+
+<body bgcolor="339966">
+<h1>BUDeal$ Login</h1>
+
+<section class="loginform cf">
+
+    <ul>
+        <li><label for="usermail">Email</label>
+        <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
+        <li><label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" required></li>
+
+	<form action="http://localhost:3000/deals/new" method="link">
+	<input type="submit" value="Login" />&nbsp;</p>
+	</form>
+
+    </ul>
+</form>
+</section>

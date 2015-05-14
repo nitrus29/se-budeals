@@ -5,7 +5,7 @@ Budeals::Application.routes.draw do
 
   get "static_pages/faq"
 
-  get "static_pages/ddeals"
+  get "static_pages/login"
 
   get "static_pages/index"
 

@@ -21,7 +21,7 @@
 <form action="http://localhost:3000/static_pages/faq" method="link">
 <p style="text-align: center;"><input type="submit" value="FAQ"/>&nbsp;</p>
 </form>
-<p style="text-align: center;">&nbsp;</p>
+
 </form>
 </body>
 </html>

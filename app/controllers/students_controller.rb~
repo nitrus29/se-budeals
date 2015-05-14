@@ -5,6 +5,7 @@ class StudentsController < ApplicationController
    @students = Student.find(:all)
  end
 
+
  def ddeals
    @student= Student.ddeals
    @students = Student.find(:all)
@@ -15,10 +16,16 @@ class StudentsController < ApplicationController
    @students = Student.find(:all)
  end
 
- def create
+ def submit
    @student = Student.new(params[:student])
+   flash[:notice] = "User registered successfully"
    if @student.save
-      redirect_to new_student_path
-   end
-end
+     redirect_to root_path
+   end 
+ end
+
+ def login
+	@student= Student.new
+	@students = Student.find(:all)
+ end
 end
