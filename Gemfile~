@@ -1,23 +1,19 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+
 gem 'rails', '3.2.18'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
 gem 'sqlite3'
-gem 'debugger'
-gem 'devise'
-gem "rspec-rails"
-gem 'cucumber-rails', :require=>false
-gem 'cucumber-rails-training-wheels'
-gem 'database_cleaner'
-gem 'capybara'
-gem 'launchy'
-gem 'simplecov'
-end
 
+gem 'devise'
+
+group :development, :test do
+gem "rspec-rails", ">=2.0.1"
+gem 'cucumber-rails'
+gem 'database_cleaner'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
