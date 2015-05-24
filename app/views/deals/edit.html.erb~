@@ -32,8 +32,8 @@
   </div>
 
   <div class="field">
-    <%= f.label :contactnumber %><br />
-    <%= f.text_field :contactnumber %>
+    <%= f.label :contactphonenumber %><br />
+    <%= f.text_field :contactphonenumber %>
   </div>
 
   <div class="actions">

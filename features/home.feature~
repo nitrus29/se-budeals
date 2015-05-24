@@ -5,13 +5,13 @@ I want to buy or sell products
 
 Scenario: Register
 Given I am on http://localhost:3000
-Then I press "REGISTER"
+Then I press "Register"
 Then I am on http://localhost:3000/students/new
 Then show me the registration page
 
 Scenario: Login
 Given I am on http://localhost:3000
-Then I press "LOGIN"
+Then I press "Login"
 Then I am on http://localhost:3000/static_pages/login
 Then show me the login page
 

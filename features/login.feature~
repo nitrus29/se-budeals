@@ -6,6 +6,7 @@ I want to login to the system
 
 Scenario:Login
 Given I am on http://localhost:3000/static_pages/login
-Then I fill in Email and Password
+Given I fill in "emailid" with "apawar2@binghamton.edu"
+Given I fill in "password" with "1234"
 When I press "Login"
 Then show me the Menu page

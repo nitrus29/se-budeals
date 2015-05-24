@@ -1,4 +1,4 @@
-Feature: Menu Page
+Feature:
 As a user, after I log in,
 So that I can choose to Create a Deal, View a Deal
 Then I want to see all the Options listed on the Menu Page
