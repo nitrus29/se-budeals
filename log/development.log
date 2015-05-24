@@ -30517,3 +30517,13 @@ Connecting to database specified by database.yml
   [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (5.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430231012')
   [1m[36m (5.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
+Connecting to database specified by database.yml
+  [1m[36m (39.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (150.3ms)[0m  [1mCREATE TABLE "deals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "category" varchar(255), "name" varchar(255), "description" varchar(255), "price" varchar(255), "contactname" varchar(255), "contactemail" varchar(255), "contactnumber" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (14.4ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "emailid" varchar(255), "password" varchar(255), "phoneno" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (56.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (135.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (62.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150430231012')
+  [1m[36m (101.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406195355')[0m
