@@ -1,0 +1,10 @@
+module Deal
+FactoryGirl.define do
+factory :deal => Deal do
+name 'Moby Dick'
+description 'paperback book'
+price '$5'
+contactname 'Apeksha'
+end
+end
+end

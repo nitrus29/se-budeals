@@ -10,17 +10,18 @@ gem 'rails', '3.2.18'
 group :development, :test do
   gem 'sqlite3'
   gem 'debugger'
-  gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
+  gem 'factory_girl_rails', '~> 4.5.0'
   gem 'rspec-rails'
   gem 'simplecov'
 end
 
 group :test do
-  gem 'cucumber-rails'
+#  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
 end
 group :production do

@@ -7164,3 +7164,684 @@ Processing by DealsController#index as HTML
   Rendered deals/index.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 5.2ms (Views: 3.9ms | ActiveRecord: 0.2ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 63.7ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactnumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (55.5ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactnumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactnumber", ""], ["created_at", Mon, 25 May 2015 08:43:07 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Mon, 25 May 2015 08:43:07 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 61.9ms (ActiveRecord: 56.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5.5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 7.0ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 18.3ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6.9ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.1ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12.1ms (Views: 4.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (7.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 8.1ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9.5ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13.7ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (4.3ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13.2ms (Views: 7.8ms | ActiveRecord: 4.3ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3.1ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (62.2ms)[0m  begin transaction
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3.0ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9.2ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.1ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-25 05:43:07 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.7ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9.3ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StudentsController#new as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 32.0ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StudentsController#new as HTML
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9.6ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1.9ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6.7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.5ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6.0ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.0ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7.9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2.6ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.6ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 5.6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StudentsController#new as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 12.5ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by StudentsController#new as HTML
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13.0ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2.2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:43:08 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.3ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 15.2ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 72.2ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+Started POST "/deals" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#create as HTML
+  Parameters: {"utf8"=>"✓", "deal"=>{"category"=>"Books", "name"=>"", "description"=>"", "price"=>"", "contactname"=>"Moby Dick", "contactemail"=>"", "contactnumber"=>""}, "commit"=>"Create Deal"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (64.8ms)[0m  [1mINSERT INTO "deals" ("category", "contactemail", "contactname", "contactnumber", "created_at", "description", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category", "Books"], ["contactemail", ""], ["contactname", "Moby Dick"], ["contactnumber", ""], ["created_at", Mon, 25 May 2015 08:45:08 UTC +00:00], ["description", ""], ["name", ""], ["price", ""], ["updated_at", Mon, 25 May 2015 08:45:08 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://localhost:3000/deals
+Completed 302 Found in 69.0ms (ActiveRecord: 65.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5.4ms (Views: 3.9ms | ActiveRecord: 0.1ms)
+Started GET "/deals/" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3.7ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals/new" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#new as HTML
+  Rendered deals/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 5.7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.2ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3.1ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2.8ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (5.6ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13.9ms (Views: 6.9ms | ActiveRecord: 5.6ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:45:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 12.4ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.4ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20.5ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 7.4ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15.4ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3.0ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5.6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8.7ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2.1ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (6.4ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.9ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StudentsController#new as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 26.9ms (Views: 5.6ms | ActiveRecord: 0.6ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StudentsController#new as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 5.3ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8.4ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2.7ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.4ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7.5ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1.7ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/faq" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.9ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.1ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9.8ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/static_pages/login" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#login as HTML
+  Rendered static_pages/login.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.8ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+Started GET "/static_pages/index" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.5ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1.6ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StudentsController#new as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 4.3ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+Started GET "/students/new" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by StudentsController#new as HTML
+  [1m[35mStudent Load (0.1ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 10.3ms (Views: 9.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (4.2ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by DealsController#index as HTML
+  [1m[36mDeal Load (0.1ms)[0m  [1mSELECT "deals".* FROM "deals" [0m
+  Rendered deals/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6.7ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/deals" for 127.0.0.1 at 2015-05-25 05:45:09 -0300
+Processing by DealsController#index as HTML
+  [1m[35mDeal Load (0.2ms)[0m  SELECT "deals".* FROM "deals" 
+  Rendered deals/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3.0ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction

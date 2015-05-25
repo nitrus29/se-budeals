@@ -1,0 +1,8 @@
+require 'rails_helper'
+
+RSpec.describe DealsController, :type => :controller do
+	it "is invalid without a name" do
+	FactoryGirl.build(:deal, name: nil).should_not be_valid
+end
+
+end
